@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{background-image: linear-gradient(rgba(5, 5, 5, 0.6), rgba(5, 5, 5, 0.6)), url('../Images/background-image.jpg');
+    background-size: cover;
+    overflow-y: hidden;
+    background-position: center;
+    overflow-x: hidden;
+
+}
+nav{width: 100%;
+    height: 10vh;
+    
+}
+nav ul{text-align: right;
+
+}
+nav ul li{display: inline-block;
+    margin: 5px;
+    margin-top: 15px;
+
+}
+nav ul li a{text-decoration: none;
+    color: white;
+
+}
+nav ul li img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    position: relative;
+    top: 9px;
+    
+}
+#Google{color: white;
+    font-size: 50px;
+    margin-left: 570px;
+    margin-top: 100px;
+
+}
+#input{padding: 10px;
+    width: 530px;
+    border-radius: 50px;
+    margin-left: 380px;
+    border: none;
+    padding-left: 50px;
+   
+
+}
+#search-icon{position: relative;
+    right: 520px;
+    font-size: 12px;
+    color: rgb(44, 43, 43);
+}
+
+   
+
+
+.main-1{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 400px;
+    margin-top: 30px;
+
+}
+.item-1{width: 16px;
+    height: 16px;
+    background-color: brown;
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+#anime{
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 370px;
+}
+#Char{
+    color: white;
+    font-size: 13px;
+    margin-left: 3px;
+   
+}
+.item-2{width: 16px;
+    height: 16px;
+    background-color: rgb(38, 49, 38);
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+#Telegram{color: white;
+    position: relative;
+    top: 5px;
+    left: 385px;
+
+}
+.main-2{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 520px;
+    position: relative;
+    bottom: 127px;
+
+}
+.item-3{width: 16px;
+    height: 16px;
+    background-color: rgb(38, 49, 38);
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+#movies{color: white;
+    margin-top: 20px;
+    position: relative;
+    right: 10px;
+
+}
+.main-3{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 520px;
+    position: relative;
+    bottom: 75px;
+
+}
+.item-4 {width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+
+#Chrome-Logo{width: 18px;
+    height: 16px;
+
+}
+#Web{color: white;
+    position: relative;
+    bottom: 72px;
+    left: 500px;
+    
+  
+
+}
+.main-4{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 650px;
+    position: relative;
+    bottom: 205px;
+
+}
+.item-5{width: 16px;
+    height: 16px;
+    background-color: rgb(38, 49, 38);
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+.main-5{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 650px;
+    position: relative;
+    bottom: 165px;
+
+}
+.item-6{width: 16px;
+    height: 16px;
+    background-color: rgb(38, 49, 38);
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+#YTS{color: white;
+    position: relative;
+    left: 650px;
+    bottom: 195px;
+    font-size: 14px;
+
+}
+#Facebook{color: white;
+    position: relative;
+    left: 640px;
+    bottom: 162px;
+    font-size: 14px;
+
+}
+.main-6{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 770px;
+    position: relative;
+    bottom: 295px;
+
+}
+.item-7{width: 16px;
+    height: 16px;
+    background-color: rgb(38, 49, 38);
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+.main-7{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 770px;
+    position: relative;
+    bottom: 255px;
+
+}
+.item-8{width: 16px;
+    height: 16px;
+    background-color: rgb(38, 49, 38);
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+.main-8{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 865px;
+    position: relative;
+    bottom: 385px;
+
+}
+.item-9{width: 16px;
+    height: 16px;
+    background-color: rgb(38, 49, 38);
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+.main-9{width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 865px;
+    position: relative;
+    bottom: 345px;
+
+}
+.item-10{width: 16px;
+    height: 16px;
+  
+    border-radius: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+
+}
+#Private{color: white;
+    position: relative;
+    left: 760px;
+    bottom: 287px;
+    font-size: 14px;
+
+}
+#twitter{color: white;
+    position: relative;
+    left: 765px;
+    bottom: 252px;
+    font-size: 14px;
+
+}
+#YT{color: white;
+    position: relative;
+    left: 845px;
+    bottom: 380px;
+    font-size: 14px;
+
+}
+#Add{color: rgb(255, 255, 255);
+    position: relative;
+    left: 845px;
+    bottom: 343px;
+    font-size: 14px;
+
+}
+#Char-2{color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 3px;
+
+}

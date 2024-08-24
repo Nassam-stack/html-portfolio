@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(235, 234, 233);
+    
+    
+}
+nav ul li input{padding: 7px;
+    width: 550px;
+    margin-top: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px lightgray;
+
+}
+nav ul li{
+    margin-left: 450px;
+}
+nav ul{ list-style: none;
+    
+
+}
+#search{
+    position: relative;
+    right: 20px;
+    transform: rotate(90deg);
+    font-size: 12px;
+
+}
+#Microsoft{
+    float: left;
+    position: relative;
+    right: 350px;
+    top: 15px;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+}
+.left-container{height: 110vh;
+    flex-basis: 5%;
+
+}
+
+.right-container{height: 110vh;
+    flex-basis: 95%;
+    background-color: rgb(248, 245, 245);
+    box-shadow: 2px 2px 2px 3px lightgray;
+    border-radius: 5px;
+}
+#left-container-icons{color: rgb(90, 89, 89);
+    margin-left: 20px;
+    font-size: 22px;
+
+}
+#apps{font-size: 12px;
+    margin-left: 15px;
+
+}
+#game{font-size: 12px;
+    margin-left: 8px;
+
+}
+#arcade{font-size: 12px;
+    margin-left: 11px;
+
+}
+#Entertainment{font-size: 12px;
+
+}
+#AI{font-size: 12px;
+    margin-left: 11px;
+
+}
+#info{font-size: 12px;
+    margin-left: 5px;
+
+}
+#Library{font-size: 12px;
+    margin-left: 10px;
+
+}
+#Help{font-size: 12px;
+    margin-left: 20px;
+
+}
+#icons-labels{font-size: 15px;
+    margin-left: 5px;
+    
+
+}
+#movies{
+    font-size: 20px;
+    margin-left: 45px;
+}
+.main-1{display: flex;
+    margin-left: 40px;
+
+}
+.img1{width: 190px;
+    height: 290px;
+    margin: 5px;
+    border-radius: 6px;
+    background-image: url('../Images/img1.jpg');
+    background-position: center;
+    background-size: contain;
+    transition: 1s;
+
+
+}
+.img1:hover{transform: scale(1.1);
+
+}
+.img2{width: 190px;
+    height: 290px;
+    background-image: url('../Images/img2.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 1s;
+
+
+}
+.img2:hover{transform: scale(1.1);
+}
+.img3{width: 190px;
+    height: 290px;
+    background-image: url('../Images/img3.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 1s;
+
+
+}
+.img3:hover{transform: scale(1.1);
+}
+.img4{width: 190px;
+    height: 290px;
+    background-image: url('../Images/img4.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 1s;
+
+
+}
+.img4:hover{transform: scale(1.1);
+}
+.img5{width: 190px;
+    height: 290px;
+    background-image: url('../Images/img5.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 1s;
+
+
+}
+.img5:hover{transform: scale(1.1);
+}
+.img6{width: 190px;
+    height: 290px;
+    background-image: url('../Images/img6.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 1s;
+    
+
+
+}
+.img6:hover{transform: scale(1.1);
+}
+.bottom-container{width: 1190px;
+    height: 300px;
+    background-color: rgb(78, 77, 77);
+    margin-left: 45px;
+    margin-top: 30px;
+    border-radius: 7px;
+    display: flex;
+
+}
+.bottom-left-container{height: 300px;
+    flex-basis: 25%;
+   
+
+}
+.bottom-right-container{height: 300px;
+    flex-basis: 75%;
+    display: flex;
+    margin-left: 70px;
+
+}
+#bottom-left-container-text{color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+.image-1{width: 170px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-image: url('../Images/img6.jpg');
+    background-position: center;
+    background-size: contain;
+    transition: 1s;
+
+    
+
+}
+.image-1:hover{transform: translateY(-10px);
+
+}
+.image-2{width: 170px;
+    height: 250px;
+    background-image: url('../Images/img5.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: 1s;
+
+}
+.image-2:hover{transform: translateY(-10px);
+
+}
+.image-3{width: 170px;
+    height: 250px;
+    background-image: url('../Images/img4.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: 1s;
+
+}
+.image-3:hover{transform: translateY(-10px);
+
+}
+.image-4{width: 170px;
+    height: 250px;
+    background-image: url('../Images/img3.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: 1s;
+
+}
+.image-4:hover{transform: translateY(-10px);
+
+}
